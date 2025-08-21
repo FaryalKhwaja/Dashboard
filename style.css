@@ -1,11 +1,21 @@
+
+
 body {
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #eae9e3;
+    padding: 0;
+    margin: 5rem;
+    box-sizing: border-box;
 }
-.layout-panel-top {
-    background-color: #ffffff;
+.layout {
+    background-color: white;
     display: inline-block;
-    padding: 10px;
-    border-radius: 17px;
+    padding: 8px;
+    border-radius: 12px;
+    vertical-align: middle;
+}
+.greetings {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 50px;
+    line-height: 0.2;
 }
